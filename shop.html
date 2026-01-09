@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop | Veg Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<h2 class="page-title">Shop Fresh Vegetables</h2>
+
+<div class="products">
+
+  <div class="card">
+    <img src="images/tomatoes.jpg">
+    <h3>Tomatoes</h3>
+    <p>$1.50 / kg</p>
+    <button onclick="addToOrder('Tomatoes', 1.5)">Add to Order</button>
+  </div>
+
+  <div class="card">
+    <img src="images/onions.jpg">
+    <h3>Onions</h3>
+    <p>$1.00 / kg</p>
+    <button onclick="addToOrder('Onions', 1)">Add to Order</button>
+  </div>
+
+  <div class="card">
+    <img src="images/cabbage.jpg">
+    <h3>Cabbage</h3>
+    <p>$0.80 each</p>
+    <button onclick="addToOrder('Cabbage', 0.8)">Add to Order</button>
+  </div>
+
+  <div class="card">
+    <img src="images/spinach.jpg">
+    <h3>Spinach</h3>
+    <p>$0.50 / bundle</p>
+    <button onclick="addToOrder('Spinach', 0.5)">Add to Order</button>
+  </div>
+
+</div>
+
+<a href="order.html" class="btn">Proceed to Order</a>
+
+</body>
+</html>
