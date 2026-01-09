@@ -1,9 +1,0 @@
-/veghub
-│── index.html     (Home)
-│── shop.html      (Shop / Products)
-│── order.html     (Order Page)
-│── about.html     (optional)
-│── contact.html   (optional)
-│── images/         (vegetable images)
-│── style.css       (shared styles)
-│── script.js       (shared logic)
