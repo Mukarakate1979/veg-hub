@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order | Veg Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<h2>Complete Your Order</h2>
+
+<div id="orderSummary"></div>
+
+<form onsubmit="sendOrder(event)">
+  <input type="text" id="name" placeholder="Your Name" required>
+  <input type="tel" id="phone" placeholder="Phone Number" required>
+  <input type="date" required>
+
+  <button type="submit">Send Order via WhatsApp</button>
+</form>
+
+</body>
+</html>
